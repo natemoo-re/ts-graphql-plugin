@@ -21,10 +21,10 @@ First, confirm that your project has typescript(v2.3.x or later) and graphql.
 To install this plugin, execute the following:
 
 ```sh
-npm install ts-graphql-plugin -D
+npx ts-plugin install graphql
 ```
 
-And configure `plugins` section in your tsconfig.json, for example:
+Then configure the `plugins` section of your tsconfig.json, for example:
 
 ```json
 {
